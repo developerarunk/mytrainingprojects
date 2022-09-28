@@ -1,0 +1,559 @@
+@media(min-width:300px) and (max-width:767px)
+{
+    #carousel-section .container,#footer .container{padding:0;width:100%}
+    #blog-section .container,#online-stores-section .container{padding:0 8px}
+    .blog-inner{border-right:medium none;margin:0 0 20px;padding-left:0}
+    .navbar-toggle{height:27px;margin-bottom:0;margin-top:15px;padding:6px 5px}
+    .navbar-default .navbar-toggle .icon-bar{background-color:#000;height:1px}
+    .navbar-default .navbar-toggle{border-color:#000;border-radius:0}
+    .first-nav{margin:12px 0 0}
+    .second-nav{margin:0}
+    .container-fluid>.navbar-collapse,.container-fluid>.navbar-header,.container>.navbar-collapse,.container>.navbar-header{border:none}
+    .mobile-header{display:block}
+    .menu-bar{display:none}
+    #main .mobile-logo{display:block;margin:-54px auto auto}
+    #carousel-section{margin:0}
+    .blog-heading {
+        height: 60px;
+        overflow: hidden;
+    }
+    .image-blog-text {
+        padding: 0;
+    }
+    .text-blog-text p {
+        text-align: justify;
+    }
+    .bf-text {
+        margin: 33px 0 0;
+    }
+    .comments-col {
+        display: table;
+    }
+    .cmnt-n {
+        display: table;
+    }
+    .col-lg-10.user-comment-col {
+        margin: 0;
+        padding: 0 0 0 12px;
+    }
+    .blog-full-inner-1 .bf-h3 {
+        font-size: 22px;
+    }
+    .comments-col h2 {
+        font-size: 22px;
+    }
+    .blog-full-inner-1 {
+        margin: 0 0 32px;
+    }
+    .latest-posts-col {
+        display: table;
+    }
+    .posts-col {
+        display: table;
+    }
+    .contact-main-col {
+        padding: 0;
+    }
+    .contact-inner-main-col {
+        padding: 0;
+    }
+    .contact-inner-1 {
+        padding: 0;
+    }
+    .contact-inner-2 {
+        padding: 0;
+    }
+
+}
+@media(min-width:768px) and (max-width:992px)
+{
+    .container{padding:0;width:100%}
+    #blog-section .container,#online-stores-section .container{padding:0 12px!important}
+    #header .container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;width:732px}
+    .first-nav{margin:25px 0 0 9px}
+    .second-nav{margin:25px 2px 0 0}
+    .logo{left:25px}
+    .carousel-caption{left:29%;width:67%}
+    #about-section .container{padding:0 15px}
+    .blog-heading {
+        height: 60px;
+        overflow: hidden;
+    }
+    .image-blog-text {
+        padding-left: 25px;
+    }
+    #blog-full-section .container {
+        padding: 0 15px;
+    }
+    .bf-text {
+        margin: 32px 0 0;
+    }
+    .comments-col {
+        display: table;
+    }
+    .cmnt-n {
+        display: table;
+    }
+    .col-lg-10.user-comment-col {
+        margin: 0;
+        padding: 0 0 0 15px;
+    }
+    .bf-ul li img {
+        width: 58px;
+    }
+    .blog-full-inner-2 h2 {
+        font-size: 22px;
+    }
+    .posts-col {
+        display: table;
+    }
+
+}
+@media(min-width:993px) and (max-width:1199px)
+{
+    .first-nav{margin:26px 0 0 127px}
+    .second-nav{margin:22px 106px 0 0}
+    .logo{left:30px}
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:510px}
+    .container{padding:0}
+    .carousel-caption{left:43%;width:54%}
+    #about-section .container{padding:0 15px}
+    .comments-col {
+        display: table;
+    }
+    .cmnt-n {
+        display: table;
+    }
+    .posts-col {
+        display: table;
+    }
+    .bf-ul li img {
+        width: 76px;
+    }
+    #blog-full-section .container {
+        padding: 0 15px;
+    }
+    .col-lg-10.user-comment-col {
+        margin: 0 0 0 -8px;
+    }
+
+}
+@media(min-width:993px) and (max-width:1024px)
+{
+    .container{padding:0;width:100%}
+    #blog-section .container,#online-stores-section .container{padding:0 6px}
+}
+@media(min-width:300px) and (max-width:500px)
+{
+    .online-stores-main-col .store-h2
+    {background:url(../images/hr-dark.png) center bottom/200px auto no-repeat rgba(0,0,0,0);font-size:20px;padding:0 0 15px}
+    .blog-main-col .blog-h2
+    {background:url(../images/hr-dark.png) center bottom/165px auto no-repeat rgba(0,0,0,0);font-size:20px;margin:5px 0 6px;padding:0 0 15px}
+    .online-stores-main-col .store-p{font-size:14px;line-height:15px;max-width:85%}
+    .online-stores-b1-inner,.online-stores-b2-inner{width:100%}
+    #online-stores-section .container{padding:0 6px}
+    .blog-heading>p{font-size:15px;height:56px;overflow:hidden}
+    .footer-main-col .footer-p{font-size:12px}
+    .about-main-col h2{background:url(../images/hr-big.png) center bottom/142px auto no-repeat rgba(0,0,0,0);font-size:20px;padding:0 0 12px}
+    .about-main-col .about-head-p{font-size:14px;line-height:15px;max-width:88%}
+    .about-left-col p{font-size:13px;max-width:100%;padding:0 0 2px}
+    .about-right-col .arrow{left:48%;position:absolute;top:-7%;transform:rotate(90deg)}
+    .owl-main-col h2{background:url(../images/hr-big.png) center bottom/195px auto no-repeat rgba(0,0,0,0);font-size:20px;padding:0 0 15px}
+    .owl-main-col p{font-size:14px;line-height:15px;margin-bottom:0;max-width:88%}
+    .head-jk-h2 {
+        background: rgba(0, 0, 0, 0) url("../images/hr-big.png") no-repeat scroll center bottom / 132px auto;
+        font-size: 20px;
+        padding: 0 0 15px;
+    }
+    .head-jk-p {
+        font-size: 14px;
+        margin: auto auto 5px;
+        max-width: 92%;
+    }
+    .image-blog-text .blog-head-text {
+        font-size: 20px;
+    }
+    .image-blog-text p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .text-blog-text .blog-head-text {
+        font-size: 20px;
+    }
+    .text-blog-text p {
+        font-size: 14px;
+    }
+    .image-blog-text .blog-read {
+        float: right;
+        font-size: 14px;
+    }
+    .text-blog-text .blog-read {
+        float: right;
+        font-size: 14px;
+    }
+    .blog-full-inner-1 .bf-p {
+        font-size: 15px;
+    }
+    .col-lg-10.user-comment-col > h3 {
+        font-size: 14px;
+    }
+    .col-lg-10.user-comment-col > p {
+        font-size: 13px;
+        line-height: 16px;
+        margin: 12px 0 0;
+    }
+    .leave-comment-col h2 {
+        font-size: 22px;
+    }
+    .blog-full-inner-2 h2 {
+        font-size: 22px;
+    }
+}
+@media(min-width:501px) and (max-width:767px)
+{
+    .container{width:100%}
+    .online-stores-main-col .store-h2
+    {background:url(../images/hr-dark.png) center bottom/300px auto no-repeat rgba(0,0,0,0);font-size:25px;padding:0 0 15px}
+    .online-stores-main-col .store-p{font-size:15px;line-height:15px;max-width:85%}
+    .blog-main-col .blog-h2
+    {background:url(../images/hr-dark.png) center bottom/210px auto no-repeat rgba(0,0,0,0);font-size:25px;margin:5px 0 6px;padding:0 0 15px}
+    .blog-heading>p{font-size:19px;height:56px;overflow:hidden}
+    .footer-main-col .footer-p{font-size:14px}
+    .about-main-col h2{background:url(../images/hr-big.png) center bottom/180px auto no-repeat rgba(0,0,0,0);font-size:25px;padding:0 0 15px}
+    .about-main-col .about-head-p{font-size:15px;line-height:17px;margin:auto auto 15px;max-width:88%}
+    .about-left-col p{font-size:15px;max-width:100%;padding:0;text-align:justify}
+    .about-right-col .arrow{left:49%;top:-17px;transform:rotate(90deg)}
+    .about-circle-inner p{font-size:15px;margin:8px 0 0}
+    .owl-main-col h2{font-size:25px}
+    .owl-main-col p{font-size:15px;line-height:17px;margin:auto auto 0;max-width:88%}
+    .head-jk-h2 {
+        background: rgba(0, 0, 0, 0) url("../images/hr-big.png") no-repeat scroll center bottom / 165px auto;
+        font-size: 25px;
+        padding: 0 0 15px;
+    }
+    .head-jk-p {
+        font-size: 15px;
+        margin: auto auto 12px;
+    }
+    .image-blog-text .blog-read {
+        float: right;
+    }
+    .text-blog-text .blog-read {
+        float: right;
+    }
+}
+@media(min-width:300px) and (max-width:400px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:343px}
+    .banner-caption .head-p{font-size:15px}
+    .banner-caption .info-p{font-size:16px;line-height:17px;max-width:84%}
+    .banner-caption .visit-btn{font-size:14px;margin:26px auto auto;padding:5px 12px}
+    .banner-caption{top:22%}
+    .carousel-caption{left:33%;top:0;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:19px;padding:0 0 9px}
+    .carousel-caption p{font-size:12px;line-height:13px;max-width:100%}
+    .about-circle-inner p{font-size:11px}
+    .contact-inner-1 {
+        width: 100%;
+    }
+    .contact-inner-2 {
+        width: 100%;
+    }
+    .baner-caption h2 {
+        background: rgba(0, 0, 0, 0) url("../images/banner-line.png") no-repeat scroll center bottom / 63px auto;
+        font-size: 16px;
+        margin: 0;
+        padding: 0 0 9px;
+    }
+    .baner-caption .breadcrumb {
+        margin: 0;
+        padding: 0;
+    }
+    .baner-caption .breadcrumb li {
+        font-size: 13px;
+        margin: 4px 0 0;
+    }
+}
+@media(min-width:401px) and (max-width:500px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:420px}
+    .banner-caption .head-p{font-size:18px}
+    .banner-caption .info-p{font-size:16px;line-height:17px;max-width:84%}
+    .banner-caption .visit-btn{font-size:14px;margin:40px auto auto;padding:5px 12px}
+    .banner-caption{top:25%}
+    .about-circle-inner p{font-size:13px}
+    .contact-ul li {
+        display: table-cell;
+        float: left;
+        list-style-type: none;
+        margin: 0 0 25px;
+        width: 50% !important;
+    }
+    .contact-ul li:first-child {
+        padding: 0 0 0 48px;
+    }
+    .contact-ul li:nth-child(2) {
+        padding: 0 0 0 48px;
+    }
+    .contact-ul li:last-child {
+        padding: 0 0 0 48px;
+    }
+    .contact-inner-1 {
+        width: 100%;
+    }
+    .contact-inner-2 {
+        width: 100%;
+    }
+}
+@media(min-width:501px) and (max-width:599px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:501px}
+    .banner-caption .head-p{font-size:18px}
+    .banner-caption .info-p{font-size:16px;line-height:17px;max-width:84%}
+    .banner-caption .visit-btn{font-size:14px;margin:40px auto auto;padding:5px 12px}
+    .banner-caption{top:25%}
+    .online-stores-b1-inner,.online-stores-b2-inner{width:100%}
+}
+@media(min-width:600px) and (max-width:700px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:388px}
+    .banner-caption img{width:50%}
+    .banner-caption .head-p{font-size:14px}
+    .banner-caption .info-p{font-size:14px;line-height:16px}
+    .banner-caption .visit-btn{font-size:14px;margin:32px auto auto;padding:6px 13px}
+}
+@media(min-width:701px) and (max-width:767px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:388px}
+    .banner-caption img{width:50%}
+    .banner-caption .head-p{font-size:14px}
+    .banner-caption .info-p{font-size:14px;line-height:16px}
+    .banner-caption .visit-btn{font-size:14px;margin:32px auto auto;padding:6px 13px}
+}
+@media(min-width:768px) and (max-width:850px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:491px}
+    .banner-caption .head-p{font-size:19px}
+    .banner-caption .info-p{font-size:17px;line-height:20px}
+    .banner-caption .visit-btn{font-size:16px;letter-spacing:1px;padding:9px 24px}
+}
+@media(min-width:851px) and (max-width:992px)
+{
+    .online-stores-b1-inner .b-img,.online-stores-b2-inner .b-img{height:491px}
+    .banner-caption .head-p{font-size:19px}
+    .banner-caption .info-p{font-size:17px;line-height:20px}
+    .banner-caption .visit-btn{font-size:16px;letter-spacing:1px;padding:9px 24px}
+}
+@media(min-width:300px) and (max-width:350px)
+{
+    .logo{left:25%;top:-52px}
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:351px) and (max-width:400px)
+{
+    .logo{left:28%;top:-51px}
+    .baner-caption h2 {
+        margin: 6px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:400px) and (max-width:450px)
+{
+    .logo{left:32%;top:-51px}
+    .carousel-caption{left:33%;top:0;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:24px;padding:0 0 9px}
+    .carousel-caption p{font-size:13px;line-height:13px;max-width:100%}
+    .baner-caption h2 {
+        font-size: 18px;
+        margin: 3px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:451px) and (max-width:500px)
+{
+    .logo{left:34%;top:-51px}
+    .carousel-caption{left:33%;top:9%;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:24px;padding:0 0 9px}
+    .carousel-caption p{font-size:13px;line-height:13px;max-width:100%}
+    .baner-caption h2 {
+        font-size: 18px;
+        margin: 6px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:501px) and (max-width:550px)
+{
+    .logo{left:36%;top:-51px}
+    .carousel-caption{left:33%;top:9%;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:30px;padding:0 0 9px}
+    .carousel-caption p{font-size:15px;line-height:13px;max-width:100%}
+    .baner-caption h2 {
+        font-size: 20px;
+        margin: 9px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:551px) and (max-width:600px)
+{
+    .logo{left:36%;top:-51px}
+    .carousel-caption{left:33%;top:18%;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:30px;padding:0 0 9px}
+    .carousel-caption p{font-size:15px;line-height:13px;max-width:100%} .baner-caption h2 {
+        font-size: 23px;
+        margin: 17px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+
+}
+@media(min-width:601px) and (max-width:650px)
+{
+    .logo{left:38%;top:-51px}
+    .carousel-caption{left:33%;top:20%;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:30px;padding:0 0 9px}
+    .carousel-caption p{font-size:15px;line-height:13px;max-width:100%}
+    .carousel-caption p{font-size:15px;line-height:13px;max-width:100%} .baner-caption h2 {
+        font-size: 28px;
+        margin: 17px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:651px) and (max-width:700px)
+{
+    .logo{left:39.5%;top:-51px}
+    .carousel-caption{left:33%;top:23%;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:34px;padding:0 0 9px}
+    .carousel-caption p{font-size:16px;line-height:13px;max-width:100%}
+    .carousel-caption p{font-size:15px;line-height:13px;max-width:100%} .baner-caption h2 {
+        font-size: 28px;
+        margin: 22px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:701px) and (max-width:767px)
+{
+    .logo{left:40.5%;top:-51px}
+    .carousel-caption{left:33%;top:23%;width:59%}
+    .carousel-caption h2{background:url(../images/hr.png) center bottom/148px auto no-repeat rgba(0,0,0,0);font-size:36px;padding:0 0 9px}
+    .carousel-caption p{font-size:16px;line-height:13px;max-width:100%}
+    .carousel-caption p{font-size:15px;line-height:13px;max-width:100%} .baner-caption h2 {
+        font-size: 28px;
+        margin: 25px 0 0;
+    }
+    .baner-caption {
+        background: rgba(248, 243, 247, 0.58) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        padding: 8px 0 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        width: 100%;
+    }
+}
+@media(min-width:768px) and (max-width:800px)
+{
+    .baner-caption {
+        left: 30%;
+        top: 11.5%;
+    }
+}
+@media(min-width:801px) and (max-width:850px)
+{
+    .baner-caption {
+        left: 31%;
+        top: 11.5%;
+    }
+}
+@media(min-width:851px) and (max-width:900px)
+{
+    .baner-caption {
+        left: 33%;
+        top: 14.5%;
+    }
+}
+@media(min-width:901px) and (max-width:950px)
+{
+    .baner-caption {
+        left: 33%;
+        top: 17.5%;
+    }
+}
+@media(min-width:951px) and (max-width:992px)
+{
+    .baner-caption {
+        left: 33%;
+        top: 17.5%;
+    }
+}
