@@ -1,0 +1,120 @@
+*            			 	{margin:0 auto ;padding:0;}
+body						{font-family:arial;overflow-x:hidden;}
+.fixed-width 	 			{width:1250px; margin:0 auto;} 
+h1 							{text-align:center;}
+.logo      				    {float:left;}
+.logo						{margin-top:4px;margin-left:4px;}
+.about-us					{float: left;width:55%;padding-top:50px;}
+.about-us h1				{border:9px solid #2f2e2f;width:414px;font-weight:900;font-size:37px;letter-spacing:0.040em;padding:10px;}
+.about-us p					{padding:25px 25px 0px 48px;text-align:center;line-height:40px;font-size:1em;}
+.about-img					{float:left;width:45%}
+.about-img	img				{float: left; margin:10px 15px;}
+.bannerbackground			{background-repeat:no-repeat;background-image:url("slide-img1.jpg");background-position:center;}
+.bannerbackground	h1		{position:relative;animation-name:example;animation-duration:4s;animation-timing-function:ease;font-size:3em;color:white;text-shadow:2px 2px 4px #000;}
+.bannerdivbackground		{background-image:url("rendered.png");padding:14em;}
+.bannerbackground	p		{color:#dadada;font-weight:600;text-align:center;margin-bottom:25px;font-size:20px;line-height:28px;letter-spacing:.2px;}
+.whychoosse img				{margin-left:100px;border-radius:20px;}
+.whychoose img				{display:block;margin:0 auto;}
+.whychoose  				{width:100%}
+.whychoose	h1				{font-size:37px;}
+.gallery	h1				{font-size:37px;}
+.feedback p 				{text-align:center;}
+.feedback h2				{text-align:center;}
+.feedback img				{border-radius:50%;display:block;margin:0 auto;border:7px solid white;}
+.gallery  p					{text-align:center;}
+.banner img 				{width:100%;background-attachment:fixed;}
+.menu						{float:right;padding-left:10px;}
+.clear  					{clear:both;}
+.ch 						{color:green;}
+.width						{float:left;}
+.whychoose					{float:left;}
+.whychooseusimage			{float:left;width:33%;}
+.whychooseusimage img		{display:block;margin:0 auto;border-radius:50%;}
+.whychooseusimage p			{text-align:center;font-family:Raleway;color:#555555;font-weight:500;margin-top:25px;line-height:34px;}
+.gallery					{float:left;padding-left:100px;}
+.margin						{margin-top:40px;}
+.background					{background-repeat:no-repeat;background-position:center;background-image:url("abc.jpg");}
+.divbackground				{background-image:url("rendered.png");padding:100px 0px;}
+.pae						{font-size:20px;line-height:28px; color:#c9c9c9;text-align:center;font-weight: 500;}
+.heading					{font-size:2em;color:white;}
+.headingmain				{font-size:6em;top:450px;color:white;text-shadow:2px 2px 4px #000;}
+.para						{font-size: 20px;line-height: 28px;font-weight: 500;color: #d9d9d9;margin-bottom: 20px;}
+.contact-us					{padding-top:40px;}
+.leftfooter					{float:left;width:33%;}
+.imagecenter				{float:left;width:33%;}
+.rightfooter				{float:left;width:33%;}
+.leftfooter h1				{color:black;text-shadow:none;font-size:2.3em;}
+.leftfooter p				{color:#555555;text-align:right;font-weight:500;line-height:40px;font:Raleway;}
+.leftfooter h2				{color:#3fa962;text-align:right;}
+.rightfooter h1				{color:black;text-shadow:none;font-size:2.3em;}
+.rightfooter p				{color:#555555;text-align:left;line-height:40px;font:Raleway;}
+.firstp						{color:#555555;text-align:left;font-weight:500;line-height:40px;font:Raleway;}
+.rightfooter h2				{display:inline;color:#3fa962;text-align:left;}
+.imagecenter img			{width:75%;display:block;margin:0 auto;}
+.newsletter					{color:white;background-color:green;font-weight:900;padding:50px;}
+.affordable					{font-size:6em;color:white;text-shadow:2px 2px 4px #000;}
+.newgallery			li		{animation-name:example;animation-duration:10s;position:relative;width:20%;float:left;margin:20px 31px;background-color:white;}
+.newgallery			ul		{list-style-type:none;}
+.newgallery			h1		{font-size:30px;color:white;}
+.newgallery			img		{width:100%;}
+.backgroundimage			{background-repeat:no-repeat;background-image:url("123.jpg");padding:15em 0;background-position:center;background-attachment:fixed;}
+.underlineborder			{border-bottom:12px solid white;}
+.backgroundimage h1			{font-size:6em;top:450px;color:white;text-shadow:2px 2px 4px #000;}
+.affordablebackground		{background-repeat:no-repeat;background-image:url("pricing.jpg");padding:15em 0;background-position:center;background-attachment:fixed;}
+.placebackground			{background-image:url("featured.jpg");padding:15em 0;background-position:center;background-attachment:fixed;}
+.placebackground h1			{font-size:6em;top:450px;color:white;text-shadow:2px 2px 4px #000;}
+.beercontent				{float: left;width:50%;padding-top:50px;}
+.beercontent h1				{border:9px solid #2f2e2f;width:414px;font-weight:900;font-size:37px;letter-spacing:0.040em;padding:10px;}
+.beercontent p				{padding:25px 25px 0px 48px;text-align:center;line-height:40px;font-size:1em;font-weight:900;}
+.beerimage					{float:left;width:50%}
+.beerimage	img				{float: left;width:77%;padding:0px 55px 0 150px;} 
+.featuredbackground			{background-repeat:no-repeat;background-image:url("featured.jpg");padding:15em 0;background-position:center;background-attachment:fixed;}
+.featuredbackground h1		{font-size:6em;top:450px;color:white;text-shadow:2px 2px 4px #000;}
+.dishescontent				{float: left;width:50%;padding-top:50px;}
+.dishescontent h1			{border:9px solid #2f2e2f;width:414px;font-weight:900;font-size:37px;letter-spacing:0.040em;padding:10px;}
+.dishescontent p			{padding:25px 25px 0px 48px;text-align:center;line-height:40px;font-size:1em;}
+.dishesimage				{float:left;width:50%}
+.dishesimage	img			{float: left;width:77%;padding:0px 150px 0 55px;} 
+.reservationbackground		{background-repeat:no-repeat;background-image:url("reservation-seat.jpg");padding:15em 0;background-position:center;background-attachment:fixed;}	
+.reservationbackground h1	{font-size:6em;color:white;text-shadow:2px 2px 4px #000;}
+input						{width:100%;border:1px solid #ccc;padding:15px;box-sizing:border-box;margin:9px;}
+input[type=submit] 			{background-color:rgba(80, 160, 108, 1);width:532px;margin:17px 0;border-radius:3px;color:white;}
+.left						{width:30%;float:left;padding:20px;}
+.center						{width:30%;float:left;padding:20px;}
+.right-text					{width:20%;float:left;padding:15px 0 15px 20px;background-color:rgba(80, 160, 108, 0.53);margin:28px 0px 0px 25px;}
+.leftform					{width:40%;float:left;padding:20px;}
+.rightform					{width:40%;float:left;padding:20px;}
+textarea					{width:100%;border:1px solid #ccc;resize:none;padding:15px;margin-top:7px;}
+.lastform					{padding:20px 0px 10px 50px;}
+.newgaldiv					{background-color:#3FA962;padding:20px 15px;}
+.newgaldiv p 				{border:0.7px solid white;display:inline;padding:2px;color:white;font-size:10px;float:right;}
+.newgallip					{text-align:center;color:#555555;line-height:2em;padding:0 10px;}
+.newgalbackground			{background-image:url("slide-img1.jpg"); background-position:center;background-repeat:no-repeat;}
+.newgalbackgrounddiv		{background-color:rgba(0,0,0,.6);}
+.newgalbackground h1		{color:white;font-size:2.5em;text-shadow:2px 2px 4px #000;}
+.paraa						{background-color:#3fa962;color:white;padding:4px 5px;margin:0 590px;font-weight:700;font-size:11px;border-radius:2px;}
+.li							{border-radius:2px;box-sizing:border-box;padding:20px;box-shadow: 10px 10px 5px #888888;box-shadow: 0px 0px 12px 1px #555555;width:33%;float:left;background-color:white;}
+.li p						{margin:1em 0 1em 0;text-align:center;font-weight:600;}
+.li h2						{margin:1em 0;}
+.li i						{color:#3fa962;}
+.wnewgallery				{width:80%;margin:4em auto;}
+.wnewgallery			img	{width:70%;display:block;border-radius:50%;border:10px solid #3fa962; margin-top:1em;}
+.av 							{position:relative; padding:20px;margin-top:-20px;padding-bottom:65px;}
+.time						{border:1px solid #b1e8c3 ;margin:0px 50px !important;padding:4px 10px;color:#3fa962;font-size:1em;}
+.whatwedop					{font-size:20px;line-height:28px;color:#a2a2a2;font-weight:500;text-align:center;}
+.dropdown					{list-style-type:none;position:relative; display: inline-block;}
+.dropdown-content 			{width:100%;margin:0;list-style-type:none;display:none;position:absolute;background-color: #f9f9f9;padding:0;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dropdown-content a 			{color:black;padding:12px 25px;text-decoration:none;display:block;}
+.dropdown-content a:hover 	{background-color:#f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn 		{background-color:#3e8e41; color:#fff;}
+.dropdown:hover .dropbtn 	a	{color:#fff;}
+.dropbtn					{font-size:1.2em;padding:30px 20PX;}
+.dropbtn		a			{text-decoration:none;color:black;}
+.dropbtn		a			{text-decoration:none;color:black;}
+/* Standard syntax */
+@keyframes example {
+    0%   {opacity:0;}
+	50%		{opacity:0.5;}
+    100%  {opacity:1;}
+  }

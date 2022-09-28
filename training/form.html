@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link type="text/css"rel="stylesheet" href="form.css" />
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<script>
+function measur(){
+	var a=document.body;
+	a.style.background="yellow";
+}
+
+function cm(){
+	var cm=document.getElementById("centimeter");
+	var ic=document.getElementById("inches");
+	ic.style.display="none";
+	cm.style.display="block";
+}
+
+function inch(){
+	var cm=document.getElementById("centimeter");
+	var ic=document.getElementById("inches");
+	ic.style.display="block";
+	cm.style.display="none";
+}
+</script>
+
+<body>
+	<form class="first-form clear">
+		<h1>Yours Information</h1>
+		<div>
+		<label>Full Name</label>
+		<input type="text" placeholder="Full Name"/>
+		<label>Email Id*</label>
+		<input type="text" placeholder="Email Id"/>
+		<label>Date of birth</label>
+		<input type="text" placeholder="DD/MM/YEAR"/>
+		<label>Mobile No.</label>
+		<input type="text" placeholder="10 Digit Mobile Number"/>
+		<label>Pin Code</label>
+		<input type="text" placeholder="Pin code"/>
+		<label>Mesaurment Tag</label>
+		<input type="text" />
+		</div>
+	</form>
+
+	<div class="top-head clear">
+		<h1>Salwaar Measurement</h1>
+		<p>I am giving</p>
+		<input type="radio"style="display:inline;"name="Measurement2" value="Mesaurment"/>Actual Body Measurement
+		<p>(Garment is made 2-3 inch loose in case actual body measurement is filled)</p>
+		<p>OR</p>
+		<input type="radio"style="display:inline;" name="Measurement2" value="Mesaurment"/> Garment Measurement
+		<p>(this is generally 2-3 inch loose then actual body measurement)</p>
+		<br>
+		<br>
+		<p>Sleeve Styles</p>
+		<div class="sleev-styles">
+			<img src="blouse-sleeve-styles01.jpg" width="100px" height="100px">
+			<input type="radio"style="display:inline-block;" name="sleves" value="Mesaurment"/>Drawstring-1
+			</div>
+		<div class="sleev-styles">
+			<img src="blouse-sleeve-styles01.jpg" width="100px" height="100px">
+			<input type="radio"style="display:inline-block;" name="sleves" value="Mesaurment"/>Short Sleeves
+		</div>
+		<div class="sleev-styles">
+			<img src="blouse-sleeve-styles01.jpg" width="100px" height="100px">
+			<input type="radio"style="display:inline-block;" name="sleves" value="Mesaurment"/>Puff Sleeves
+		</div>
+		<div class="sleev-styles">
+			<img src="blouse-sleeve-styles01.jpg" width="100px" height="100px">
+			<input type="radio"style="display:inline-block;" name="sleves" value="Mesaurment"/>Elbow Sleeves
+		</div>
+				
+	</div>
+	
+	<form class="nxt-form">
+	<div class="kameez-option">
+		<div class="next-type">
+		<label>Measurement in</label>
+		<input type="radio" name="Measurement" onclick="inch()" value="Inches"/><label>Inches</label>
+		<input type="radio" name="Measurement" onclick="cm()" value="Centimeters"/><label>Centimeters</label>
+	</div>
+	<p style="text-align:center;"  id="inches">Kameez (Top) (In Inches)</p>
+	<p style="text-align:center;display:none;" id="centimeter">Kameez (Top) (In Centimeters)</p>
+		<div class="options">
+		<p>1:Around Bust</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>2: Around Above Waist</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>3:Shoulder</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>4:Around Bust</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>5: Around Arm Hole*</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>6: Around Arm*</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>7: Front Neck Depth	</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>8: Back Neck Depth</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>9: Kameez/Top Length</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>10: Around Waist*</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>11: Around Hips*</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>12: Salwar/Bottom Length*</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>13: Around Knee</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p>14: Your Height</p>
+		<select>
+		<option value="volvo">SELECT</option>
+		<option value="saab">10</option>
+		<option value="opel">20</option>
+		<option value="audi">25</option>
+		</select>
+		</div>
+		<div class="options">
+		<p style="vertical-align:300%;">15: Your Remark</p>
+		<textarea rows="4" cols="20">
+		</textarea>
+		</div>
+	</div>
+	<div class="right-img">
+	<img src="Measurement Form-Kameez-1.jpg">
+	<img src="Measurement-Form-Kameez-3-n.jpg">
+	</div>
+	<input type="submit" value="Submit">
+	</form>
+	
+</body>
+</html>

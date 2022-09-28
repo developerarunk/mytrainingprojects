@@ -1,0 +1,9 @@
+*				{margin:0;padding:0}
+body			{width:1250px;}
+.logo 			{float:left;}
+.menu ul 			{float:left;}
+.menu  ul      		{list-style-type:none;float:left;margin-left:130px;}
+.menu li      {float:left;margin:45px 0px 55px 40px;}	
+.menu a    {text-decoration:none; color:#000;}
+.social-links ul {float:left;}
+.slinks li {float:left}

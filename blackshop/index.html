@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Just another</title>
+		<link rel="stylesheet" href="css/default.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="favicon-1.png">
+	</head>
+	
+<body class="fixed-width">
+
+		<!--HEADER OPEN-->
+	<div class="row">	
+				<div class="col-3 hide bg-black" style="padding:24px">
+				</div>
+				<div class="col-9 hide ud">
+					<ul class="col-7 half lang">
+						<li class="active"><a href="#">EN</a></li>
+						<li><a href="#">FR</a></li>
+						<li><a href="#">GE</a></li>
+					</ul>
+					<ul class="col-5 half set-men">
+						<li><a href="#" class="jseffect">MY ACCOUNTS<i class="fa fa-angle-down"></i></a>
+						<ul class="dropd first">
+							<li><a href="#">LOGIN</a></li><br>
+							<li><a href="#">REGISTER</a></li><br>
+							<li><a href="#">CHECKOUT</a></li><br>
+						</ul>
+						</li>
+						<li><a href="#">WISHLIST</a></li>
+						<li><a href="#"><span class="active">CURRENCY</span>:USD<i class="fa fa-angle-down"></i></a>
+							<ul class="dropd second-head">
+								<li><a href="#">EURU</a></li><br>
+								<li><a href="#">GRP</a></li><br>
+							</ul>
+						</li>
+					</ul>
+				</div>
+	</div>
+	<div class="row move md-fixed-width" style="position:relative;z-index:4;">
+		<div class="col-3 headerimg md-fixed-width col-960-7 bg-black full-m">
+			<img class="logo" src="images/Logo-home-5.png" alt="Black Shop">
+			
+		</div>
+		<div class="right col-960-5  desk-cart hide-m show">
+			<i class="right fa fa-shopping-cart"></i>
+		</div>
+		<div class="col-960-12 show desk-bars cog">
+			<i class="fa fa-bars " onclick="toggle()"></i>
+				<div class="side-tog" id="side-toggle">
+					<ul class="lang si-lang">
+						<li class="active"><a href="#">EN</a></li>
+						<li><a href="#">FR</a></li>
+						<li><a href="#">GE</a></li>
+					</ul>
+					<ul class="side-toggle">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">DEMOS</a><i class="fa right fa-plus"></i></li>
+						<li><a href="#">PAGES</a></li>
+						<li><a href="#">SHOP</a><i class="fa right fa-plus"></i></li>
+						<li><a href="#">BLOG</a><i class="fa right fa-plus"></i></li>
+						<li><a href="#">FABRIC ARMCHAIRS</a><i class="fa right fa-plus"></i></li>
+						<li><a href="#">FABRIC SOFAS</a><i class="fa right fa-plus"></i></li>
+						<li><a href="#">COFFE & SIDE TABLES</a><i class="fa right fa-plus"></i></li>
+						<li><a href="#">LIVING & LIGHTING</a></li>
+						<li><a href="#">TV & MEDIA FURNITURE</a></li>
+						<li><a href="#">STORAGE BEDS</a></li>
+						<li><a href="#">BEDS</a></li>
+					</ul>
+				</div>
+			
+			<i class="right fa fa-shopping-cart show-m" style="display:none;padding-left:15px;"></i>
+			<i class="fa right fa-cog">
+			<ul class="dropd first">
+				<li><a href="#">LOGIN</a></li><br>
+				<li><a href="#">REGISTER</a></li><br>
+				<li><a href="#">CHECKOUT</a></li><br>
+			</ul>
+			</i>
+		</div>	
+		<ul class="col-9 head hide">
+			<li><a href="#" style="color:#aaaaaa;">HOME</a></li>
+			<li><a href="#">DEM0<i class="fa fa-angle-down"></i></a>
+				<ul class="dropd demo-dropdown">
+					<li><a href="#">SUPER MARKET</a></li><br>
+					<li><a href="#">KITCHEN APPLIANCES</a></li><br>
+					<li><a href="#">FASHION SIMPLE</a></li><br>
+					<li><a href="#">HOME FASHION</a></li><br>
+					<li><a href="#">FHOME FURNITURE</a></li><br>
+				</ul>
+			</li>
+			<li><a href="#">PAGES</a></li>
+			<li><a href="#">SHOP<i class="fa fa-angle-down"></i></a>
+				<ul class="dropd demo-dropdown shop-dropdown">
+					<li><a href="#">CATEGORY PAGES</a></li><br>
+					<li><a href="#">PRODUCT PAGES</a></li><br>
+					<li><a href="#">CONTACT LEFT BLACK</a></li><br>
+				</ul>
+			</li>
+			<li><a href="#">BLOG<i class="fa fa-angle-down"></i></a>
+				<ul class="dropd demo-dropdown shop-dropdown blog-dropdown">
+					<li><a href="#">CATEGORY PAGES</a></li><br>
+					<li><a href="#">PRODUCT PAGES</a></li><br>
+					<li><a href="#">CONTACT LEFT BLACK</a></li><br>
+				</ul>
+			</li>
+			<div class="right">
+				<i class="fa fa-search"></i>
+				<i class="fa fa-shopping-cart"></i>
+			</div>
+		</ul>
+	</div>
+	<div class="row md-fixed-width">
+		<ul class="col-3 hide side-menu bg-black">
+			<li><a href="#">Fabric Armchairs</a></li>
+			<li><a href="#">Fabric Sofas</a></li>
+			<li><a href="#">Coffe & Side tables</a></li>
+			<li><a href="#">Living Room Lighting</a></li>
+			<li><a href="#">TV & Media Furniture</a></li>
+			<li><a href="#">Storage beds</a></li>
+			<li><a href="#">Beds</a></li>
+		</ul>
+		<div class="col-9 move md-fixed-width col-960-12 slider" style="height:48.46vw;overflow:hidden;">
+			<div id="slider" class="nivoSlider"> 
+			<img src="images/img_slider.jpg" data-thumb="images/img_slider.jpg" alt="" /> 
+			<img src="images/banner-slide2.jpg" data-thumb="banner-slide2.jpg" alt="">
+			<img src="images/img_slider.jpg" data-thumb="images/img_slider.jpg" alt="" data-transition="slideInLeft" /> 
+			<img src="images/banner-slide2.jpg" data-thumb="images/banner-slide2.jpg" alt="" title="#htmlcaption" /> 
+			</div>
+		</div>
+	</div>
+	<div class="row md-fixed-width">
+		<div class="col-3 product-title hide bgbackgrd">
+			<div class="backshad">
+				<h3>
+					<span>Latest Deals</span>
+					<img class="iconimage right"  style="margin-left:5px;"src="images/right.png">
+					<img class="iconimage right"src="images/left.png">
+				</h3>
+				<div class="wrap">
+					<img src="images/13-250x250.jpg">
+					<div class="dynamic-time">
+						<div><p>194</p><p class="italic">Days</p></div>
+						<div><p>0</p><p class="italic">Hours</p></div>
+						<div class="hide-1060"><p>48</p><p class="italic">Minutes</p></div>
+					</div>
+					<p class="cap-head">Chair DARK Brown Black</p>
+					<del><i>$699.00</i></del><i class="amt">$688.89</i><br><br>
+					<div class="align-center">
+					<a href="#" class="cart hide-1060">Add to cart</a>
+					<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+					<img class="iconimage"src="images/hrt.png">
+					<img class="iconimage"src="images/cmp.png">
+					</div>
+				</div>
+			</div>
+			<div class="left-side">
+				<h3>
+					<span>RECENT BLOG</span>
+					<img class="iconimage right"  style="margin-left:5px;"src="images/right.png">
+					<img class="iconimage right"src="images/left.png">
+				</h3>
+				<div class="wrap">
+					<img src="images/af.jpg">
+					<p class="cap-head">Contemporary workspace </p>
+					<p class="left-p">Mei ut eleifend accusamus moderatius, dictas everti detracto ea qui. Eos adhuc dolor ex. Munere vocent ei qui, ...</p>
+					<div class="align-center">
+					<a href="#" class="cart hide-1060">Add to cart</a>
+					<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+					<img class="iconimage"src="images/hrt.png">
+					<img class="iconimage"src="images/cmp.png">
+					</div>
+				</div>
+			</div>
+			<div class="left-side">
+				<h3>
+					<span>BESTSELLERS</span>
+					<img class="iconimage right"  style="margin-left:5px;"src="images/right.png">
+					<img class="iconimage right"src="images/left.png">
+				</h3>
+				<div class="wrap">
+					<div class="wrap border-b" style="padding:10px 0;">
+						<img src="images/71-250x250.jpg" class="product-image">
+						<p class="cap-head bs-p">Side TABLE</p>
+						<del class="pd-t"><i class="pd-t">$699.00</i></del><i class="amt">$688.89</i>
+					</div>
+					<div class="wrap border-b"style="padding:10px 0;">
+						<img src="images/1-250x250.jpg" class="product-image">
+						<p class="cap-head bs-p">Side TABLE</p>
+						<del class="pd-t"><i class="pd-t">$699.00</i></del><i class="amt">$688.89</i>
+					</div>
+					<div class="wrap border-b" style="padding:10px 0;">
+						<img src="images/15-250x250.jpg" class="product-image">
+						<p class="cap-head bs-p">Side TABLE</p>
+						<del class="pd-t"><i class="pd-t">$699.00</i></del><i class="amt">$688.89</i>
+					</div>
+					<div class="wrap border-b" style="padding:10px 0;">
+						<img src="images/16-250x250.jpg" class="product-image">
+						<p class="cap-head bs-p">Side TABLE</p>
+						<del class="pd-t"><i class="pd-t">$699.00</i></del><i class="amt">$688.89</i>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3>
+					<span class="ag">TESTIMONIAL</span>
+				</h3>
+				<div class="wrap">
+					<img src="images/testimonial-img1.jpg" class="img-align">
+					<p class="cap-head">MICHAEL BLACK WHITE </p>
+					<p class="left-p">Mei ut eleifend accusamus moderatius, dictas everti detracto ea qui. Eos adhuc dolor ex. Munere vocent ei qui, ...</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-9 col-960-12 row" style="padding:0">
+			<div class="lamp hieght-adj full grow col-960-6 col-6"style="padding:0;position:relative;">
+				<img src="images/banner1_BS3.png">
+				<div class="caption-left">
+				<h2>CONTEMPORARY<br>
+				PENDANT LIGHTING</h2><br>
+				<p>Lighting</p>
+				</div>
+			</div>
+			<div class="seat grow hieght-adj full col-960-6 col-6"style="padding:0;position:relative;">
+				<img src="images/banner2_BS3.png">
+				<div class="caption-left">
+				<h2>GET A COMFY SEAT ALL<br>
+				TO YOURSELF</h2><br>
+				<p>Airmchairs</p>
+				</div>
+			</div>
+		</div>
+		<!--FULL CATALOG-->
+		<div class="row">
+			<ul class="col-9 col-960-12 full head heada">
+				<li><a href="#">ARMCHAIRS</a></li>
+				<li><a href="#">FABRIC SOFAS</a></li>
+				<li><a href="#">SIDE TABLE</a></li>
+				<img class="iconimage right"  style="margin-left:5px;"src="images/right.png">
+				<img class="iconimage right"src="images/left.png">
+			</ul>
+			<!--CATALOG ROW OPEN-->
+			<div class="row">
+				<!--CATALOG OPEN-->
+				<div class="col-9 col-960-12" style="padding:0;">
+					<div class="wrap col-4 col-960-6">
+					<div class="jzoom">
+						<img src="images/41-250x250.jpg">
+					</div>
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$179</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/21-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/1b-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/1-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/8-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/5-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="col-6 hp-str full col-960-6" style="height:27.42vw;">
+						<h2>HIDDEN STORAGE</h2>
+						<p class="left-p hide hide-m">Small bedrooms can get in a mess fast.<br>
+						Here's how to store a wardrobe's worth of<br>
+						stuff when you don't have space for a<br>
+						wardrobe.
+					</div>
+					<div class="col-6 full  grow col-960-6" style="height:27.42vw;overflow:hidden">
+						<img src="images/img-banner3.png">
+					</div>
+					<ul class="col-12 head heada">
+						<li><a href="#">POPULAR WEEKLY</a></li>
+						<img class="iconimage right"  style="margin-left:5px;"src="images/right.png">
+						<img class="iconimage right"src="images/left.png">
+					</ul>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/18-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 col-960-6">
+						<img src="images/16a-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<div class="wrap col-4 hide">
+						<img src="images/201-250x250.jpg">
+						<p class="cap-head">Chair DARK Brown Black</p>
+						<i class="amt">$688.89</i><br><br>
+						<div class="align-center">
+							<a href="#" class="cart hide-1060">Add to cart</a>
+							<img class="iconimage  icon-margin show-1060" style="display:none;"src="images/cart.png">
+							<img class="iconimage"src="images/hrt.png">
+							<img class="iconimage"src="images/cmp.png">
+						</div>
+					</div>
+					<!--CATALOG CLOSE-->
+				</div>
+				<!--CATALOG ROW CLOSE-->
+			</div>
+			<!--FULL CATALOG CLOSE-->
+		</div>
+	</div>
+	<div class="row ud hide-m" >
+		<div class="col-3 footer wrap bg-black footer-font">
+			<h3>About Tripledragons</h3>
+			<span class="footer-p">
+				<p>Qras at justto varius tempus nibh hen gravida<br>
+				dui. Duis biquet lectus...[...]</p>
+				<p>5555 Love Paradise 56 New Clity 5655 ,<br>
+				Excel Tower&nbsp; - United Kingdom...</p>
+				<p>(+800) 2307 2509 8889</p>
+				<p>Brotherthemes@support.com</p>
+				<p><img class="alignnone size-full wp-image-3086" src="images/Logo-home-5.png" alt="Logo-home-5" width="202" height="24"></p>
+			</span>	
+		</div>
+		<div class="col-9 footer" style="background-color:#333333;">
+			<div class="col-4 wrap">
+				<h3 class="link-h3">LINKS</h3>
+				<ul class="footer-ul">
+				<li><a href="#">THEME FEATURES</a></li>
+				<li><a href="#">DELIVERY</a></li>
+				<li><a href="#">RETURN POLICY</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">FAQS</a></li>
+				<li><a href="#">CONTACT LEFT BLACK</a></li>
+				</ul>
+			</div>
+			<div class="footer upper-pad col-4">
+					<h3>LASTEST TWITTER</h3>
+						<div>
+							<p class="footer-p">@TripleDragons “Lorem ipsum dolor sit amet, id vix soleat vocibus periculis, tamquam disputando sit ne, mazim utroque pertinax ea duo”</p>
+							<h3 class="fa fa-twitter"></h3>
+							<p class="footer-p">@TripleDragons “Lorem ipsum dolor sit amet, id vix soleat vocibus periculis, tamquam disputando sit ne, mazim utroque pertinax ea duo”</p>
+							<h3 class="fa fa-twitter"></h3>
+						</div>	
+			</div>
+			<div class="footer upper-pad col-4">
+				<h3>INSTAGRAM</h3>
+				<ul class="instaul">
+					<li><img src="images/13725756_157790941311783_1533421120_n.jpg"></li>
+					<li><img src="images/13712339_1811102735772334_1368281959_n.jpg"></li>
+					<li><img src="images/13712501_1082732081812191_1515778350_n.jpg"></li>
+					<li><img src="images/13725672_1133853963353306_913137218_n.jpg"></li>
+					<li><img src="images/13686858_215054488892369_817867302_n.jpg"></li>
+					<li><img src="images/13721055_504642909733351_714970794_n.jpg"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer wrap ud row footer-mobile show-m bg-black"style="display:none;">
+	<h3>About Tripledragons <i class="fa right fa-plus"></i></h3>
+	<h3>Links<i class="fa right fa-plus"></i></h3>
+	<h3>lastest twitter<i class="fa right fa-plus"></i></h3>
+	<h3>instagram</h3>
+	<ul class="instaul">
+		<li><img src="images/13725756_157790941311783_1533421120_n.jpg"></li>
+		<li><img src="images/13712339_1811102735772334_1368281959_n.jpg"></li>
+		<li><img src="images/13712501_1082732081812191_1515778350_n.jpg"></li>
+		<li><img src="images/13725672_1133853963353306_913137218_n.jpg"></li>
+		<li><img src="images/13686858_215054488892369_817867302_n.jpg"></li>
+		<li><img src="images/13721055_504642909733351_714970794_n.jpg"></li>
+	</ul>
+	</div>
+	<div class="row">
+		<div class="col-3 wrap full-m bg-black">
+			
+			<div class="">
+				<div class="social-icon-footer">
+				<a class="first" href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-rss"></i></a>
+				<a href="#"><i class="fa fa-skype"></i></a>
+				</div>
+
+			</div> 
+				
+		</div>
+		<div class="col-9 wrap full-m copyright" style="background-color:#333333;" >
+			<p>COPYRIGHT © 2016 BY BROTHERTHEMES. ALL RIGHTS RESERVED.</p>
+		</div>
+	</div>
+	<div class="col-3 side-tog">
+	<ul class="lang">
+		<li class="active"><a href="#">EN</a></li>
+		<li><a href="#">FR</a></li>
+		<li><a href="#">GE</a></li>
+	</ul>
+	<ul class="side-toggle">
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">DEMO</a><i class="fa right fa-plus"></i></li>
+		<li><a href="#">PAGES</a></li>
+		<li><a href="#">SHOP</a><i class="fa right fa-plus"></i></li>
+		<li><a href="#">BLOG</a><i class="fa right fa-plus"></i></li>
+		<li><a href="#">FABRIC ARMCHAIRS</a><i class="fa right fa-plus"></i></li>
+		<li><a href="#">FABRIC SOFAS</a><i class="fa right fa-plus"></i></li>
+		<li><a href="#">COFFE & SIDE TABLES</a><i class="fa right fa-plus"></i></li>
+		<li><a href="#">LIVING & LIGHTING</a></li>
+	</ul>
+	</div>
+  <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+   <script src="./jzoom.min.js"></script>
+       <script>
+        $('.jzoom').jzoom({bgColor: "#222"});
+    </script>
+	<script>
+	function toggle(){
+	var bd=document.body;
+	var tg=document.getElementById("side-toggle")
+	if(bd.style.left=="270px"){
+		bd.style.left="0px";
+		tg.style.display="none";
+	}
+	else{
+		bd.style.left="270px";
+		tg.style.display="block";
+	}
+	}
+	</script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$(".jsseffect").mouseenter(function(){
+			$(".dropd").slideDown("slow");
+		});
+	$(".jsseffect").mouseleave(function(){
+			$(".dropd").slideUp();
+		});
+	});
+	</script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+	<script type="text/javascript">
+	$(window).load(function() {
+	$('#slider').nivoSlider();
+	});
+	</script>
+
+	<script type="text/javascript">
+	$(window).load(function() {
+	$('#slider').nivoSlider({
+	effect: 'random',
+	slices: 15,
+	boxCols: 8,
+	boxRows: 4,
+	animSpeed: 500,
+	pauseTime: 3000,
+	startSlide: 0,
+	directionNav: true,
+	controlNav: true,
+	controlNavThumbs: false,
+	pauseOnHover: true,
+	manualAdvance: false,
+	prevText: 'Prev',
+	nextText: 'Next',
+	randomStart: false,
+	beforeChange: function(){},
+	afterChange: function(){},
+	slideshowEnd: function(){},
+	lastSlide: function(){},
+	afterLoad: function(){}
+	});
+	});
+	</script>
+
+</body>
+</html>
+
